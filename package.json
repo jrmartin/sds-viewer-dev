@@ -36,7 +36,9 @@
   "scripts": {
     "start": "craco start",
     "build": "craco build",
-    "test": "jest"
+    "test": "jest",
+    "predeploy": "craco build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -71,5 +73,6 @@
     "three": "0.111.0",
     "@metacell/geppetto-meta-core": "0.0.3",
     "@metacell/geppetto-meta-ui": "0.0.3"
-  }
+  },
+  "homepage": "http://metacell.github.io/sds-viewer"
 }
