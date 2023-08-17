@@ -211,7 +211,6 @@ class Splinter {
                 }) 
             }
         })
-        console.log("Force edges ", this.forced_edges)
 
         // Assign neighbors, to highlight links
         this.forced_edges.forEach(link => {
@@ -880,6 +879,9 @@ class Splinter {
 
 
     linkToNode(node, parent) {
+        if ( parent === undefined ){
+            return ;
+        }
         let level = parent.level;
         if (parent.type === rdfTypes.Sample.key) {
             if (parent.attributes.derivedFrom !== undefined) {
@@ -890,7 +892,7 @@ class Splinter {
         const new_node = this.buildNodeFromJson(node, level);
         new_node.parent = parent;
         new_node.id = parent.id + new_node.id;
-        node.remote_id = new_node.id;
+
         this.forced_edges.push({
             source: parent.id,
             target: new_node.id
@@ -909,6 +911,7 @@ class Splinter {
 
     buildNodeFromJson(item, level) {
         const node_id = this.proxies_map.get(item.uri_api);
+
         if (node_id) {
             return this.nodes.get(node_id);
         }
@@ -931,6 +934,7 @@ class Splinter {
             tree_reference: null,
             children_counter: 0
         };
+
         return this.factory.createNode(new_node, []);
     }
 
