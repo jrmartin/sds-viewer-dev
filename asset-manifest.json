@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/sds-viewer/static/css/main.d6b1c80d.chunk.css",
-    "main.js": "/sds-viewer/static/js/main.b177fc03.chunk.js",
-    "main.js.map": "/sds-viewer/static/js/main.b177fc03.chunk.js.map",
+    "main.js": "/sds-viewer/static/js/main.874e3e2a.chunk.js",
+    "main.js.map": "/sds-viewer/static/js/main.874e3e2a.chunk.js.map",
     "runtime-main.js": "/sds-viewer/static/js/runtime-main.fe87e835.js",
     "runtime-main.js.map": "/sds-viewer/static/js/runtime-main.fe87e835.js.map",
-    "static/js/2.20309278.chunk.js": "/sds-viewer/static/js/2.20309278.chunk.js",
-    "static/js/2.20309278.chunk.js.map": "/sds-viewer/static/js/2.20309278.chunk.js.map",
+    "static/js/2.532d91f5.chunk.js": "/sds-viewer/static/js/2.532d91f5.chunk.js",
+    "static/js/2.532d91f5.chunk.js.map": "/sds-viewer/static/js/2.532d91f5.chunk.js.map",
     "index.html": "/sds-viewer/index.html",
     "static/css/main.d6b1c80d.chunk.css.map": "/sds-viewer/static/css/main.d6b1c80d.chunk.css.map",
-    "static/js/2.20309278.chunk.js.LICENSE.txt": "/sds-viewer/static/js/2.20309278.chunk.js.LICENSE.txt",
+    "static/js/2.532d91f5.chunk.js.LICENSE.txt": "/sds-viewer/static/js/2.532d91f5.chunk.js.LICENSE.txt",
     "static/media/cancel.285b834a.svg": "/sds-viewer/static/media/cancel.285b834a.svg",
     "static/media/check.2d613265.svg": "/sds-viewer/static/media/check.2d613265.svg",
     "static/media/close.svg": "/sds-viewer/static/media/close.51de2817.svg",
@@ -46,8 +46,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.fe87e835.js",
-    "static/js/2.20309278.chunk.js",
+    "static/js/2.532d91f5.chunk.js",
     "static/css/main.d6b1c80d.chunk.css",
-    "static/js/main.b177fc03.chunk.js"
+    "static/js/main.874e3e2a.chunk.js"
   ]
 }
