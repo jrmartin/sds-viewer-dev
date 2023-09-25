@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/sds-viewer/static/css/main.d6b1c80d.chunk.css",
-    "main.js": "/sds-viewer/static/js/main.fb68bd5f.chunk.js",
-    "main.js.map": "/sds-viewer/static/js/main.fb68bd5f.chunk.js.map",
+    "main.js": "/sds-viewer/static/js/main.f1b7aecf.chunk.js",
+    "main.js.map": "/sds-viewer/static/js/main.f1b7aecf.chunk.js.map",
     "runtime-main.js": "/sds-viewer/static/js/runtime-main.fe87e835.js",
     "runtime-main.js.map": "/sds-viewer/static/js/runtime-main.fe87e835.js.map",
     "static/js/2.3a11facb.chunk.js": "/sds-viewer/static/js/2.3a11facb.chunk.js",
@@ -48,6 +48,6 @@
     "static/js/runtime-main.fe87e835.js",
     "static/js/2.3a11facb.chunk.js",
     "static/css/main.d6b1c80d.chunk.css",
-    "static/js/main.fb68bd5f.chunk.js"
+    "static/js/main.f1b7aecf.chunk.js"
   ]
 }
