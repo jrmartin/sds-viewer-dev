@@ -20,8 +20,9 @@ const DatasetDetails = (props) => {
 
     return (
         
-        <Box id={node.graph_node?.id + detailsLabel}>
+        <Box id={node.graph_node?.id + detailsLabel }>
             <Box className="tab-content">
+                <SimpleLabelValue label={""} value={""} heading={"Dataset details"} />
                 {datasetPropertiesModel?.map( property => {
                     if ( property.visible ){
                         const propValue = node.graph_node.attributes[property.property]?.[0];

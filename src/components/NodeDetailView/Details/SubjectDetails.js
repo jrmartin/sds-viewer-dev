@@ -48,7 +48,7 @@ const SubjectDetails = (props) => {
     return (
         <Box id={node?.graph_node?.id + detailsLabel}>
             <Box className="tab-content">
-                <SimpleLabelValue label={""} value={""} heading={title} />
+                <SimpleLabelValue label={""} value={""} heading={title + " details"} />
 
                 { node.graph_node?.attributes?.publishedURI && node.graph_node?.attributes?.publishedURI !== ""
                     ? (<Box className="tab-content-row">

@@ -27,7 +27,7 @@ const CollectionDetails = (props) => {
     }
 
     return (
-        <Box className="secondary-sidebar_body" id={idDetails}>
+        <Box className="secondary-sidebar_body" id={idDetails + " details"}>
             <Box className="tab-content">
                 <SimpleLabelValue label={'Label'} value={title} heading={'Collection Details'} />
                 { node.graph_node?.attributes?.publishedURI && node.graph_node?.attributes?.publishedURI !== ""

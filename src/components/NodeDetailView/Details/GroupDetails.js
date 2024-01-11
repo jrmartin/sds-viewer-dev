@@ -27,7 +27,7 @@ const GroupDetails = (props) => {
     return (
         <Box className="secondary-sidebar_body" id={idDetails}>
             <Box className="tab-content">
-                <SimpleLabelValue label={'# of Subjects '} value={node?.graph_node?.subjects} heading={node?.graph_node?.name} />
+                <SimpleLabelValue label={'# of Subjects '} value={node?.graph_node?.subjects} heading={node?.graph_node?.name + " details"} />
             </Box>
         </Box>
     );
