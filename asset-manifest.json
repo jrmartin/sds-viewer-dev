@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/sds-viewer-dev/static/css/main.05e0ffac.chunk.css",
-    "main.js": "/sds-viewer-dev/static/js/main.81b6c676.chunk.js",
-    "main.js.map": "/sds-viewer-dev/static/js/main.81b6c676.chunk.js.map",
+    "main.js": "/sds-viewer-dev/static/js/main.8f0bb5a5.chunk.js",
+    "main.js.map": "/sds-viewer-dev/static/js/main.8f0bb5a5.chunk.js.map",
     "runtime-main.js": "/sds-viewer-dev/static/js/runtime-main.d647f951.js",
     "runtime-main.js.map": "/sds-viewer-dev/static/js/runtime-main.d647f951.js.map",
     "static/js/2.f94d41a8.chunk.js": "/sds-viewer-dev/static/js/2.f94d41a8.chunk.js",
@@ -46,6 +46,6 @@
     "static/js/runtime-main.d647f951.js",
     "static/js/2.f94d41a8.chunk.js",
     "static/css/main.05e0ffac.chunk.css",
-    "static/js/main.81b6c676.chunk.js"
+    "static/js/main.8f0bb5a5.chunk.js"
   ]
 }
