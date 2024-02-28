@@ -520,6 +520,8 @@ const GraphViewer = (props) => {
       ctx.font = NODE_FONT;
       ctx.textAlign = 'center';
       ctx.textBaseline = 'top';
+      console.log("Node ", node)
+      console.log("name ", node.name)
       let nodeName = node.name;
       if (nodeName.length > 10) {
         nodeName = nodeName.substr(0, 9).concat('...');
